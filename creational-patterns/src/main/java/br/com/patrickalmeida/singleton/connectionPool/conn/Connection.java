@@ -1,7 +1,8 @@
 package br.com.patrickalmeida.singleton.connectionPool.conn;
 
 public class Connection {
-private boolean inUse;
+
+	private boolean inUse;
 	
 	public Connection() {
 		inUse = false;
